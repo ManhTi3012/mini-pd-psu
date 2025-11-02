@@ -5434,6 +5434,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 156.21) (xy 256.54 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ce099e-4694-4cc3-b37c-98705c2789ee")
+	)
+	(wire
+		(pts
 			(xy 67.31 119.38) (xy 67.31 118.11)
 		)
 		(stroke
@@ -6901,6 +6911,119 @@
 		)
 	)
 	(symbol
+		(lib_id "TiManh:NMOS-8PINS")
+		(at 267.97 157.48 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34bdf495-1473-427b-9b30-1b969d1e8508")
+		(property "Reference" "Q6"
+			(at 267.97 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON6264E"
+			(at 267.97 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 250.825 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 248.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "db338859-ec8c-461c-8c1d-2d2d493929b8")
+		)
+		(pin "4"
+			(uuid "d5ed1c74-35b7-4acb-9deb-88600d6d06f8")
+		)
+		(pin "1"
+			(uuid "7068a551-7156-4b44-b4b6-5cac1923611a")
+		)
+		(pin "3"
+			(uuid "69bb5330-f116-412b-a73f-e72b2b4e71d8")
+		)
+		(pin "5"
+			(uuid "356783c7-eb27-4d65-9817-e518e1e62d69")
+		)
+		(pin "6"
+			(uuid "ccfb93d1-d512-4042-b49c-8fd4be88878a")
+		)
+		(pin "2"
+			(uuid "8bc69c1d-8bc7-4d31-a5bb-068082a07aa9")
+		)
+		(pin "8"
+			(uuid "7dffd3e1-84dc-476d-ad68-f7f0f0668235")
+		)
+		(instances
+			(project "mini-pd-psu"
+				(path "/73708910-5649-47a5-bf10-141cdcfa145a"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 185.42 91.44 180)
 		(unit 1)
@@ -7552,6 +7675,119 @@
 			(project "mini-pd-psu"
 				(path "/73708910-5649-47a5-bf10-141cdcfa145a"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TiManh:NMOS-8PINS")
+		(at 251.46 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5abd5a18-51b2-4eef-a102-748aa4e819c2")
+		(property "Reference" "Q5"
+			(at 251.46 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON6264E"
+			(at 251.46 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
+			(at 248.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 268.605 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 270.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 266.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9bc4ed79-35e6-405f-a351-441eaa91364a")
+		)
+		(pin "4"
+			(uuid "05e76091-a99c-414f-ae98-6e2e9bb69cbb")
+		)
+		(pin "1"
+			(uuid "afb466e7-8bae-4b3f-b65b-ba901353a37e")
+		)
+		(pin "3"
+			(uuid "02e288a0-1a5d-49cc-8d34-c1c1e1728b71")
+		)
+		(pin "5"
+			(uuid "c2df7763-ecb6-4536-a5b0-0fef029822a6")
+		)
+		(pin "6"
+			(uuid "4c58c51e-4d09-4437-8887-5b338fa7c259")
+		)
+		(pin "2"
+			(uuid "683398f3-d085-4239-9c84-3c334ddc3fc4")
+		)
+		(pin "8"
+			(uuid "5cacf9be-3c62-4e7a-8f28-07f64917d295")
+		)
+		(instances
+			(project "mini-pd-psu"
+				(path "/73708910-5649-47a5-bf10-141cdcfa145a"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
