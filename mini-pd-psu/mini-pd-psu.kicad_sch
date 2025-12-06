@@ -6479,7 +6479,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 191.77) (xy 166.37 191.77)
+			(xy 240.03 234.95) (xy 234.95 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7069,7 +7069,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 189.23) (xy 166.37 189.23)
+			(xy 240.03 232.41) (xy 234.95 232.41)
 		)
 		(stroke
 			(width 0)
@@ -8469,7 +8469,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 161.29 191.77 180)
+		(at 229.87 234.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8478,7 +8478,7 @@
 		(fields_autoplaced yes)
 		(uuid "00de640f-8b89-401e-ad9a-ae97c05ffaf1")
 		(property "Reference" "J2"
-			(at 161.29 182.88 0)
+			(at 229.87 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,7 +8486,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 161.29 185.42 0)
+			(at 229.87 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,7 +8494,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 161.29 191.77 0)
+			(at 229.87 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +8503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 191.77 0)
+			(at 229.87 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8512,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 161.29 191.77 0)
+			(at 229.87 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,7 +9210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 271.78 0)
+		(at 172.72 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9219,7 +9219,7 @@
 		(fields_autoplaced yes)
 		(uuid "159670ad-33f3-4e1a-b1b4-3fa502497ebe")
 		(property "Reference" "#PWR04"
-			(at 179.07 278.13 0)
+			(at 172.72 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,7 +9228,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 276.86 0)
+			(at 172.72 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 271.78 0)
+			(at 172.72 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +9245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 271.78 0)
+			(at 172.72 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,7 +9254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 271.78 0)
+			(at 172.72 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10797,7 +10797,7 @@
 	)
 	(symbol
 		(lib_id "Interface_USB:STUSB4500QTR")
-		(at 179.07 248.92 0)
+		(at 172.72 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10806,7 +10806,7 @@
 		(fields_autoplaced yes)
 		(uuid "44d38cf8-c4c9-4b8b-877c-b794438b2f0f")
 		(property "Reference" "U2"
-			(at 181.2133 271.78 0)
+			(at 174.8633 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10815,7 +10815,7 @@
 			)
 		)
 		(property "Value" "STUSB4500QTR"
-			(at 181.2133 274.32 0)
+			(at 174.8633 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,7 +10824,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-			(at 179.07 248.92 0)
+			(at 172.72 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +10833,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stusb4500.pdf"
-			(at 179.07 248.92 0)
+			(at 172.72 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +10842,7 @@
 			)
 		)
 		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
-			(at 179.07 248.92 0)
+			(at 172.72 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14364,7 +14364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 191.77 0)
+		(at 240.03 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14373,7 +14373,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3bc9ced-e603-4d84-afa5-06d8eafef807")
 		(property "Reference" "#PWR06"
-			(at 171.45 198.12 0)
+			(at 240.03 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14382,7 +14382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 196.85 0)
+			(at 240.03 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14390,7 +14390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 191.77 0)
+			(at 240.03 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14399,7 +14399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 191.77 0)
+			(at 240.03 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14408,7 +14408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 191.77 0)
+			(at 240.03 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15311,7 +15311,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 171.45 189.23 0)
+		(at 240.03 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15320,7 +15320,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbf7139d-cf45-4abd-b787-e47d5b2660cd")
 		(property "Reference" "#PWR011"
-			(at 171.45 193.04 0)
+			(at 240.03 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15329,7 +15329,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 171.45 184.15 0)
+			(at 240.03 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15337,7 +15337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 189.23 0)
+			(at 240.03 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15346,7 +15346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 189.23 0)
+			(at 240.03 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15355,7 +15355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 171.45 189.23 0)
+			(at 240.03 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
