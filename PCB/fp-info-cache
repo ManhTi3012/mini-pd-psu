@@ -1,4 +1,4 @@
-26493658492321228
+26497192635588858
 ASM330LHHTR
 LGA-14L_2P5X3X0P83_STM
 
@@ -103571,6 +103571,20 @@ DualPad_2x3mm
 0
 2
 2
+TiManh
+EC05E1220401
+Alps rotary encoder, EC11E... with switch, vertical shaft, https://www.lcsc.com/datasheet/lcsc_datasheet_2410010003_ALPSALPINE-EC11E09444A8_C1322538.pdf
+rotary encoder
+0
+5
+4
+TiManh
+EC11_RotaryEncoder_SMD
+Alps rotary encoder, EC11E... with switch, vertical shaft, https://www.lcsc.com/datasheet/lcsc_datasheet_2410010003_ALPSALPINE-EC11E09444A8_C1322538.pdf
+rotary encoder
+0
+7
+6
 TiManh
 MouseBite_0.5mm
 
